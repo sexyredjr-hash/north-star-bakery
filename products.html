@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -40,6 +39,12 @@
             </p>
 
             <p><strong>Typical price range:</strong> $4–$9</p>
+
+            <button type="button"
+                    class="favorite-button"
+                    data-product="Breads">
+                ♡ Add to Favorites
+            </button>
         </section>
 
         <section class="product-section">
@@ -51,6 +56,12 @@
             </p>
 
             <p><strong>Typical price range:</strong> $3–$6 each</p>
+
+            <button type="button"
+                    class="favorite-button"
+                    data-product="Pastries">
+                ♡ Add to Favorites
+            </button>
         </section>
 
         <section class="product-section">
@@ -63,6 +74,12 @@
             </p>
 
             <p><strong>Typical price range:</strong> $25–$75+</p>
+
+            <button type="button"
+                    class="favorite-button"
+                    data-product="Cakes">
+                ♡ Add to Favorites
+            </button>
         </section>
 
         <section class="product-section">
@@ -77,6 +94,20 @@
                     ingredients and baked fresh for the community.
                 </figcaption>
             </figure>
+
+            <button type="button"
+                    class="favorite-button"
+                    data-product="Signature Loaf">
+                ♡ Add to Favorites
+            </button>
+        </section>
+
+        <section class="product-section">
+            <h2>My Favorite Bakery Items</h2>
+
+            <p id="favorites-message">You have no favorites yet.</p>
+
+            <ul id="favorites-list"></ul>
         </section>
 
         <section class="product-section">
@@ -101,6 +132,7 @@
         <p>Freshly baked products made for our neighborhood.</p>
     </footer>
 
+    <script src="script.js"></script>
+
 </body>
 </html>
-```
